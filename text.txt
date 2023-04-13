@@ -1,0 +1,15 @@
+撤销操作 
+g commit --amend
+
+这个命令会将暂存区中的文件提交 
+
+
+远程操作
+g remote 
+
+_ -v 查看远程地址
+_ add <shortname> <url>  关联远程仓库 <别名> <地址>
+
+
+远程拉取
+g fetch 
