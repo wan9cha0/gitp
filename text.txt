@@ -35,3 +35,7 @@ g checkout [branch-name]
 
 删除分支 
 g branch -d [branch-name]
+
+
+跟踪分支 远程分支检出本地分支
+g checkout -b [branch-name] [remotename]/[branch-name]
