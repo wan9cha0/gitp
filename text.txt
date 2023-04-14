@@ -9,11 +9,13 @@ g remote
 
 _ -v 查看远程地址
 _ add <shortname> <url>  关联远程仓库 <别名> <地址>
+_ show [remote-name] 查看远程仓库信息
 
 
 远程拉取
 g fetch [remote-name] 
 如果你有一个分支设置为跟踪一个远程分支，可以使用 git pull 命令来自动的抓取然后合并远程分支到当前分支
+*** git pull  === git fetch + git merge 拉取合并
 
 推送远程 合并
 g push [remote-name] [branch-name]
@@ -39,3 +41,13 @@ g branch -d [branch-name]
 
 跟踪分支 远程分支检出本地分支
 g checkout -b [branch-name] [remotename]/[branch-name]
+
+**快速检出同名分支
+g checkout --track [remotename]/[breach]
+
+*设置已有的分支跟踪一个刚刚拉取下来的远程分支，或者想要修改正在跟踪的上游分支
+g branch -u [remotename]/[breach]
+
+
+查看设置的所有跟踪分支
+g branch -vv
