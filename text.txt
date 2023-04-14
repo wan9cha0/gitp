@@ -31,3 +31,7 @@ g breach [branch-name]
 
 切换分支
 g checkout [branch-name]
+
+
+删除分支 
+g branch -d [branch-name]
