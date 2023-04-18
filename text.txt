@@ -1,6 +1,5 @@
 撤销操作 
-重写msg
-g commit --amend 
+g commit --amend
 
 这个命令会将暂存区中的文件提交 
 
