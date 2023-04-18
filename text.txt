@@ -20,6 +20,7 @@ g fetch [remote-name]
 
 推送远程 合并
 g push [remote-name] [branch-name]
+-f 强制推送
 
 
 删除远程分支
