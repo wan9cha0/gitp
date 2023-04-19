@@ -24,6 +24,7 @@ g push [remote-name] [branch-name]
 
 删除远程分支
 g remote rm [remote-name]
+g push origin :[remote-name]
 
 
 分支
