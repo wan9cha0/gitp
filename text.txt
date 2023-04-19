@@ -1,6 +1,5 @@
 撤销操作 
-重写msg
-g commit --amend 
+g commit --amend
 
 这个命令会将暂存区中的文件提交 
 
@@ -20,6 +19,7 @@ g fetch [remote-name]
 
 推送远程 合并
 g push [remote-name] [branch-name]
+-f 强制推送
 
 
 删除远程分支
